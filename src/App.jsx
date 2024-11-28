@@ -1,7 +1,8 @@
 
 import './App.css'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-import NavBar from './components/NavBar/NavBar'; 
+import ItemListContainer from './components/pages/ItemListContainer/ItemListContainer'
+import NavBar from './components/layout/NavBar/NavBar'
+import FetchingData from './FetchingData'
 
 
 function App() {
@@ -9,10 +10,10 @@ function App() {
 
 
   return (
-    <>
-    <NavBar></NavBar>
-    <ItemListContainer mensaje={"Bienvenido a la pagina"}/>
-    </>
+    <div>
+    <NavBar/>
+    <ItemListContainer/>
+{    /*<FetchingData/>*/}    </div>
   )
 }
 
