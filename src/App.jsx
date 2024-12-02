@@ -1,20 +1,27 @@
-
-import './App.css'
-import ItemListContainer from './components/pages/ItemListContainer/ItemListContainer'
-import NavBar from './components/layout/NavBar/NavBar'
-import FetchingData from './FetchingData'
-
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ItemListContainer from "./components/pages/ItemListContainer/ItemListContainer";
+import NavBar from "./components/layout/navbar/NavBar";
+import ItemDetail from "./components/pages/itemDetail/ItemDetail";
+import Cart from "./components/pages/cart/Cart";
 
 function App() {
-
-
-
   return (
     <div>
-    <NavBar/>
-    <ItemListContainer/>
-{    /*<FetchingData/>*/}    </div>
-  )
+
+      <BrowserRouter>
+      <NavBar />
+
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/category/:category" element={<ItemListContainer />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/detail/:id" element={<ItemDetail/>}/>
+        </Routes>
+      </BrowserRouter>
+
+    </div>
+  );
 }
 
-export default App
+export default App;

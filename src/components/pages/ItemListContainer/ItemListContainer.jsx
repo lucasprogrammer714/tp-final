@@ -1,26 +1,52 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { CardItem } from "../../common/cardItem/CardItem";
-import "./ItemListContainer.css"
+import { useParams } from "react-router-dom";
+import "./ItemListContainer.css";
+import products from "../../../products.json";
 
 const ItemListContainer = () => {
-  const [products, setProducts] = useState([]);
+  const [items, setItems] = useState([]);
+
+   const {category} = useParams();
+
+   console.log(category)
 
   useEffect(() => {
-    const getProducts = fetch("/products.json");
+    const getProducts = new Promise((resolve, reject) => {
+      let isLogged = true;
+      if (isLogged) {
+        resolve(products);
+      } else {
+        reject({ message: " ocurrio un error al traer productos" });
+      }
+    });
 
     getProducts
-      .then((response) => response.json())
-      .then((response) => setProducts(response.productos))
-      .catch((error) => console.log(error));
-  }, []);
+      .then((response) => {
+        if (category != null) {
+          const filterItems = response.filter((el) =>
+            el.categoria.includes(category)
+          );
+
+          setItems(filterItems);
+
+        } else {
+          setItems(response);
+
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, [category]);
 
   return (
     <div>
       <h2>Productos</h2>
 
       <div className="items-container">
-        {products.map((product) => {
+        {items.map((product) => {
           return <CardItem key={product.id} item={product} />;
         })}
       </div>
