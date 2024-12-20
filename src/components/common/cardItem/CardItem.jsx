@@ -9,6 +9,7 @@ export const CardItem = ({ item }) => {
       <Card.Body>
         <Card.Title>{item.nombre}</Card.Title>
         <Card.Text>{item.proveedor}</Card.Text>
+        <Card.Text>${item.precio}</Card.Text>
         <Link to={`/detail/${item.id}`}>Ver detalle</Link>
       </Card.Body>
     </Card>
