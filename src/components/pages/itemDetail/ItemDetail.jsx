@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import products from "../../../products.json"; 
 import { useParams } from "react-router-dom";
+import Counter from "../../common/counter/Counter";
 
 const ItemDetail = () => {
 
@@ -18,7 +19,7 @@ const {id} = useParams();
       <h2>{product.nombre}</h2>
       <h3>{product.detalle}</h3>
       <h3>{product.proveedor}</h3>
-      <button>Agregar al carrito</button>
+      <Counter product={product}/>
     </div>
   );
 };

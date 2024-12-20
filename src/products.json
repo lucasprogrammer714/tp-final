@@ -6,6 +6,8 @@
     "detalle": "Contemple las cómodas y elegantes curvas del impecable diseño de Galaxy A52. En la parte trasera, la cámaras se mezclan con un acabado mate, dándole una apariencia icónica y uniforme. Exprésese con su gama completa de colores.",
     "proveedor": "SAMSUNG",
     "categoria": "SmartPhones",
+    "stock": "5",
+    "precio": "50000",
     "rutaImagen": "https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819167/samsung-a52_e62lnu.jpg"
   },
   {
@@ -15,6 +17,8 @@
     "detalle": "Descubre la elegancia en cada pliegue con el Motorola Razr 50 Ultra. Su pantalla flexible y diseño compacto lo hacen el dispositivo perfecto para quienes buscan estilo y funcionalidad en un solo lugar.",
     "proveedor": "MOTOROLA",
     "categoria": "SmartPhones",
+    "stock": "8",
+    "precio": "50000",
     "rutaImagen": "https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819166/moto-razer-50_os0hyd.jpg"
   },
   {
@@ -24,6 +28,8 @@
     "detalle": "Disfrutá de tus películas y programas favoritos en la pantalla ultra wide y brillante de 6.6 y 90 Hz* con sonido Dolby Atmos®. Hacé varias tareas con facilidad gracias a que contás con hasta 4GB de memoria RAM con RAM Boost.",
     "proveedor": "MOTOROLA",
     "categoria": "SmartPhones",
+    "stock": "9",
+    "precio": "50000",
     "rutaImagen": "https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819167/motorola-e-14_w8d1bh.jpg"
   },
   {
@@ -33,6 +39,8 @@
     "detalle": "Son las mejoras que estabas esperando. Más pantalla. Más batería. Más potencia de procesamiento.8 Hay mucho más que adorar de los Galaxy S24 y S24+.  Especialmente ahora que el Galaxy S24+ viene con la mayor resolución de pantalla.",
     "proveedor": "SAMSUNG",
     "categoria": "SmartPhones",
+    "stock": "10",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819169/samsung-s24_thwixe.png"
     
   },
@@ -43,6 +51,8 @@
     "detalle": "El Galaxy Z Flip5 presenta por primera vez a Flex Window de 3,4 pulgadas creado para la autoexpresión.6 Compacto y atrapante desde todos los ángulos, este plegable es tan versátil como portátil.",
     "proveedor": "SAMSUNG",
     "categoria": "SmartPhones",
+    "stock": "2",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819169/samsung-z-flip_r4xxk2.jpg"
   },
   {
@@ -52,6 +62,8 @@
     "detalle": "Fotografía profesional en tu bolsilloDescubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.",
     "proveedor": "Xiaomi",
     "categoria": "SmartPhones",
+    "stock": "5",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819170/xiaomi-note-11_vzvd1k.png"
     
   },
@@ -62,6 +74,8 @@
     "detalle": "Pásate a lo digital con la Xbox Series S y crea una biblioteca de juegos digitales. Tus juegos, partidas guardadas y copias de seguridad están a salvo en la nube. Además, disfruta de la capacidad de reservar y preinstalar los juegos próximos.",
     "proveedor": "MICROSOFT",
     "categoria": "Gaming",
+    "stock": "5",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819107/x-series-s_hy1mrf.jpg"
   },
   {
@@ -71,6 +85,8 @@
     "detalle": " Disfruta de tiempos de carga superveloces con un SSD de velocidad ultrarrápida, una experiencia más inmersiva gracias a la compatibilidad con respuesta háptica1, y de toda una increíble colección de juegos.",
     "proveedor": "SONY",
     "categoria": "Gaming",
+    "stock": "5",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819106/ps5_rglsm3.jpg"
   },
   {
@@ -80,6 +96,8 @@
     "detalle": "Disfruta de una velocidad y rendimiento de nueva generación con Xbox Series S en negro carbón, con un SSD de 1 TB. Mundos más dinámicos, tiempos de carga más rápidos y la adición de Xbox Game Pass, Series S totalmente digital ofrece gran rendimiento",
     "proveedor": "MICROSOFT",
     "categoria": "Gaming",
+    "stock": "5",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819106/series-s-1tb_drevs6.jpg"
   },
   {
@@ -89,6 +107,8 @@
     "detalle": "Aprovecha al máximo cada minuto de tus juegos con Quick Resume, tiempos de carga ultrarrápidos y una jugabilidad de hasta 120 FPS... todo ello con la tecnología Xbox Velocity Architecture.",
     "proveedor": "MICROSOFT",
     "categoria": "Gaming",
+    "stock": "5",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819106/series-x_tl1sls.jpg"
   },
   {
@@ -98,6 +118,8 @@
     "detalle": "El motor de procesamiento del televisor LED Philips optimiza la calidad de la imagen para ofrecer imágenes nítidas, colores enriquecidos y movimiento fluido. Obtendrá la mejor experiencia de visualización posible en todo momento.",
     "proveedor": "Philips",
     "categoria": "TV",
+    "stock": "3" ,
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819182/philips-tv_dxsmln.jpg"
   },
   {
@@ -107,6 +129,8 @@
     "detalle": " Experimentá un mundo de colores vibrantes y calidad de imagen excepcional con la Smart TV Samsung 50 UHD 4K. Su pantalla UHD de 50 pulgadas (3840x2160 píxeles) ofrece detalles cautivadores, mientras la tecnología PurColor da vida a las imágenes.",
     "proveedor": "SAMSUNG",
     "categoria": "TV",
+    "stock": "4",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819183/samsung-tv_vewmwr.jpg"
   },
   {
@@ -116,6 +140,8 @@
     "detalle": "Revela hasta el último detalle LG UHD TV con HDR10 Pro ofrece niveles de brillo optimizados para colores vivos y detalles notables. El procesador α5 AI 4K Gen6 mejora el televisor LG UHD para brindarte una experiencia inmersiva.",
     "proveedor": "SAMSUNG",
     "categoria": "TV",
+    "stock": "4",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819181/lg-tv_hxvcrh.jpg"
   },
   {
@@ -125,6 +151,8 @@
     "detalle": "La Notebook N14X1010 Noblex es una herramienta confiable y eficiente diseñada para usuarios que buscan una combinación de portabilidad, rendimiento y accesibilidad. Con su procesador Intel Celeron N4020C y 4GB de memoria, esta laptop maneja tareas cotidianas como navegación web, edición de documentos y reproducción de multimedia con fluidez.",
     "proveedor": "NOBLEX",
     "categoria": "PC-Notebooks",
+    "stock": "2",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1733151205/note-noblex_hd1dd5.jpg"
   },
   {
@@ -134,6 +162,8 @@
     "detalle": "Creada para mantenerte productivo y conectado, la notebook HP 15-EF2513LA posee un diseño delgado y liviano para que la lleves con vos a todos lados. Cuenta con una pantalla HD (1366 x 768) de 15,6 pulgadas con microbordes que te permitirá tener una experiencia multimedia inmersiva.",
     "proveedor": "HP",
     "categoria": "PC-Notebooks",
+    "stock": "2",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1733151205/note-hp_uktizz.jpg"
   },
   {
@@ -143,6 +173,8 @@
     "detalle": "Con la función multi-deportes, encontrarás el entrenamiento ideal para vos. Establecé objetivos diarios y creá programas personalizados. Registrá tus calorías quemadas, cronometrá y medí distancias recorridas. Podrás intercambiar entre más de 200 fondos de pantalla y crear propios con tus imágenes preferidas.",
     "proveedor": "DTN",
     "categoria": "SmartWatch",
+    "stock": "5",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819252/smart-watch2_jjvwao.jpg"
   },
   {
@@ -152,6 +184,8 @@
     "detalle": "¡Descubre la revolución en tecnología con el Redmi Watch 4! Este reloj inteligente combina estilo y funcionalidad para ofrecerte una experiencia única. Monitoriza tus pasos, distancia recorrida, calorías quemadas y más para mantenerte en forma.",
     "proveedor": "Xiaomi",
     "categoria": "SmartWatch",
+    "stock": "6",
+    "precio": "50000",
     "rutaImagen":"https://res.cloudinary.com/dadhmr1hw/image/upload/c_thumb,w_200,g_face/v1732819240/smart-watch1_misiix.webp"
   }
  

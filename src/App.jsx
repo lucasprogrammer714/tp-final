@@ -4,23 +4,21 @@ import ItemListContainer from "./components/pages/ItemListContainer/ItemListCont
 import NavBar from "./components/layout/navbar/NavBar";
 import ItemDetail from "./components/pages/itemDetail/ItemDetail";
 import Cart from "./components/pages/cart/Cart";
+import CartContextProvider from "./context/CartContext";
 
 function App() {
   return (
-    <div>
-
-      <BrowserRouter>
-      <NavBar />
-
+    <BrowserRouter>
+      <CartContextProvider>
+        <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route path="/category/:category" element={<ItemListContainer />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/detail/:id" element={<ItemDetail/>}/>
+          <Route path="/detail/:id" element={<ItemDetail />} />
         </Routes>
-      </BrowserRouter>
-
-    </div>
+      </CartContextProvider>
+    </BrowserRouter>
   );
 }
 

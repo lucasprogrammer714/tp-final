@@ -10,7 +10,6 @@ const ItemListContainer = () => {
 
    const {category} = useParams();
 
-   console.log(category)
 
   useEffect(() => {
     const getProducts = new Promise((resolve, reject) => {
