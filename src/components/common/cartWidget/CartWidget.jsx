@@ -2,14 +2,14 @@ import { useContext } from "react";
 import { FaCartShopping } from "react-icons/fa6";
 import { CartContext } from "../../../context/CartContext";
 
-const CartWidget = () => {
 
-  const {cart} = useContext(CartContext)
+const CartWidget = () => {
+  const { getTotalItems } = useContext(CartContext);
 
   return (
-    <div>
-        <FaCartShopping size={25}/>
-        <h3>{cart.lenght}</h3>
+    <div className="widget">
+      <FaCartShopping size={25} />
+      {getTotalItems() !== 0 &&  <p>{getTotalItems()}</p>}
     </div>
   );
 };

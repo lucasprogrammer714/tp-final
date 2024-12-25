@@ -18,16 +18,18 @@ const NavBar = () => {
           </Link>
           <h3>TechnoWorld</h3>
         </div>
-
-        <Link to="/category/Gaming">Gaming</Link>
-        <Link to="/category/PC-Notebooks">PC-Notebooks</Link>
-        <Link to="/category/SmartPhones">SmartPhones</Link>
-        <Link to="/category/SmartWatch">SmartWatch</Link>
-        <Link to="/category/TV">TV</Link>
-
-        <Link to="/cart">
-          <CartWidget></CartWidget>
-        </Link>
+        <div className="links-styles">
+          <Link to="/category/Gaming">Gaming</Link>
+          <Link to="/category/PC-Notebooks">PC-Notebooks</Link>
+          <Link to="/category/SmartPhones">SmartPhones</Link>
+          <Link to="/category/SmartWatch">SmartWatch</Link>
+          <Link to="/category/TV">TV</Link>
+        </div>
+        <div>
+          <Link to="/cart">
+            <CartWidget></CartWidget>
+          </Link>
+        </div>
       </div>
     </>
   );

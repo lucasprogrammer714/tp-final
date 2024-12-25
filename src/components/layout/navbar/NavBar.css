@@ -9,8 +9,30 @@
     justify-content: space-between; 
     align-items: center; 
     padding: 10px 20px; 
+    gap: 50px;
 }
 
+
+
+
+
+.links-styles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Ajusta la separación entre los links */
+    flex-grow: 1; /* Esto expande el espacio de los links */
+}
+
+
+.links-styles a{
+    color: white;
+}
+
+.links-styles a:hover{
+    color:#719192
+
+}
 
 .size-logo{
     width: 75px;
@@ -20,3 +42,13 @@
     display: flex;
     gap:5px;
 }
+
+
+.navbar .widget {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none; 
+    color: white; 
+  }

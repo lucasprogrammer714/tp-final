@@ -22,7 +22,7 @@ const CartContextProvider = ({children}) => {
 
     const getTotalAmount = () => {
          let total =  cart.reduce( (acc, elemento)=>{
-            return acc + ( elemento.price * elemento.quantity);
+            return acc + ( elemento.precio * elemento.quantity);
           }, 0);
 
           return total;
@@ -30,8 +30,8 @@ const CartContextProvider = ({children}) => {
     }
 
     const getTotalItems = () => {
-
-    }
+      return cart.reduce((acc, elemento) => acc + elemento.quantity, 0);
+    };
 
 
 

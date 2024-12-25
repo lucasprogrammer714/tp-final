@@ -1,0 +1,8 @@
+.widget {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; /* Espacio entre el ícono y el número */
+    color: white; /* Asegúrate de que el color sea visible */
+  }
+  

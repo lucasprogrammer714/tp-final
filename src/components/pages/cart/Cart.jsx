@@ -1,25 +1,42 @@
 import React, { useContext } from "react";
 import { CartContext } from "../../../context/CartContext";
 import { Link } from "react-router-dom";
+import "./Cart.css";
 
 const Cart = () => {
-  const { cart, resetCart, deleteById, getTotalAmount} = useContext(CartContext);
+  const { cart, resetCart, deleteById, getTotalAmount } =
+    useContext(CartContext);
 
-    let totalAmount = getTotalAmount()
+  let totalAmount = getTotalAmount();
 
   return (
     <div>
       {cart.map((elemento) => {
-        return <div key={elemento.id} style={{border: "2px solid black"}}>
-          <h2>{elemento.nombre}</h2>
-          <h3>{elemento.categoria}</h3>
-          <h3>{elemento.quantity}</h3>
-          <button onClick={() => deleteById(elemento.id)}>Eliminar</button>
-        </div>;
+        return (
+          <div key={elemento.id}>
+            <div className="items-cart-container">
+              <img src={elemento.rutaImagen} alt={elemento.nombre} />
+              <div>
+                <h2>{elemento.nombre}</h2>
+                <h3>Cantidad: </h3>
+                <h3>{elemento.quantity}</h3>
+              </div>
+            </div>
+            <button onClick={() => deleteById(elemento.id)} className="delete-style-button">Eliminar</button>
+          </div>
+        );
       })}
-      <h2>El total a pagar es {totalAmount}</h2>
-      <button onClick={resetCart}>Limpiar carrito</button>
-      <Link to="/checkout">Finalizar compra</Link>
+
+      {totalAmount !== 0 && <h2>El total a pagar es ${totalAmount}</h2>}
+
+      <div className="buttons-container">
+        <button onClick={resetCart} className="button-cart">
+          Limpiar carrito
+        </button>
+        <Link to="/checkout" className="button-cart">
+          Finalizar compra
+        </Link>
+      </div>
     </div>
   );
 };

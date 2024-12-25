@@ -1,0 +1,25 @@
+.form-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px; 
+    margin: auto;
+    margin-top: 16px;
+}
+
+.checkout-buttons-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 16px;
+}
+
+.checkout-buttons-styles{
+    background-color: #757070; 
+    color: white;
+    background-color: #333;
+    border-color: #333;
+}
