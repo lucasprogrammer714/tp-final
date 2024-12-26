@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import "./cardItem.css"; // Asegúrate de importar tu archivo CSS
+import "./CardItem.css"; 
 
 export const CardItem = ({ item }) => {
   return (
