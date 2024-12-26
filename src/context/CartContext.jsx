@@ -6,10 +6,35 @@ const CartContextProvider = ({children}) => {
 
     const [cart, setCart] = useState([])
 
-    const addToCart = ( product ) => {
-      /// ... expande lo que ya tenia el carrito previamente, ademas agrega el producto
-         setCart([...cart, product]);
-    };
+
+
+  const addToCart = (product) => {
+    
+    let isInCart = cart.some((el) => el.id === product.id); 
+
+    if (isInCart) {
+
+
+      let newProductsArray = cart.map((elemento) => {
+        if (elemento.id === product.id) {
+          return {
+            ...elemento,
+            quantity: elemento.quantity + product.quantity,
+          };
+        } else {
+          return elemento;
+        }
+      }); 
+
+      setCart(newProductsArray);
+    } else {
+  
+      setCart([...cart, product]);
+    }
+  };
+
+
+
 
     const resetCart = () => {
       setCart([]);
