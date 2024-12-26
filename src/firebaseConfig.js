@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAKLVPnwAfiL4d4_uc7e9jnuDxNnUCITwo",
-  authDomain: "technoworlddb-a0636.firebaseapp.com",
-  projectId: "technoworlddb-a0636",
-  storageBucket: "technoworlddb-a0636.firebasestorage.app",
-  messagingSenderId: "788620231674",
-  appId: "1:788620231674:web:4bc89d7d642dc4bde71a43"
+  apiKey: import.meta.env.VITE_KEY,
+  authDomain: import.meta.env.VITE_AUTH,
+  projectId: import.meta.env.VITE_PROJECT,
+  storageBucket: import.meta.env.VITE_STORAGE,
+  messagingSenderId: import.meta.env.VITE_MESSAGING,
+  appId: import.meta.env.VITE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
